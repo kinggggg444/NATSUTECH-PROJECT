@@ -1,0 +1,29 @@
+{
+  "name": "natsutech-project",
+  "version": "1.0.0",
+  "description": "NATSUTECH'S PROJECT - WhatsApp Bot by NatsuTech's",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "pino": "^8.19.0",
+    "pino-pretty": "^11.0.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "NatsuTech's",
+  "license": "MIT"
+}
